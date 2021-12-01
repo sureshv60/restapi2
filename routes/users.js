@@ -11,7 +11,7 @@ const users = [];
 router.get('/',(req,res)=>{
    
     
-    res.send('users');
+    res.send('users'+users);
 });
 
 
